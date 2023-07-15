@@ -177,6 +177,9 @@ text-decoration-line: underline;
         margin-bottom: 130px;
 
     }
+    .nav-items ul{
+        justify-content: center;
+    }
   
     
 }
