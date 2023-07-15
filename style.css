@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #181719;
+    
+}
+/* header section */
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#FFFFFF;
+    /* box-shadow: 3px 3px 4px rgb(116, 114, 114); */
+    padding:20px;
+}
+    
+.nav-title{
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: crimson pro;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 7px;
+    margin-left: 40px;
+
+}
+.nav-items ul{
+    display: flex;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    align-items:center;
+    margin-right: 40px;
+    gap:25px;
+}
+.nav-items ul {
+    list-style: none;
+}
+.nav-items >ul li> a{
+    text-decoration: none;
+    padding:7px;
+    
+    color:#fff;
+}
+.nav-items >ul li> .nav-icons{
+    border-bottom: 2px solid white;
+    
+    color:#fff;
+}
+.nav-items >ul li> a:hover{
+    color:chartreuse;
+}
+
+/* Banner section starts */
+
+.banner-container{
+    margin-top: 20px;
+    color:white;
+    display:flex;
+    padding:20px;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45rem;
+}
+.banner-content{
+    align-items: center;
+}
+.banner-title{
+    color: #FFF;
+font-family: Lora;
+font-size: 48px;
+font-weight: 500;
+padding-bottom: 20px;
+
+}
+.banner-description{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+padding-bottom: 20px;
+}
+.btn{
+    padding:   10px;
+    background-color: #181719;
+    color: #FFF;
+    border: none;
+}
+.btn-and-icon{
+    display: flex;
+    align-items: center;
+}
+.banner-photo{
+    height: 400px;
+    position: relative;
+
+
+}
+/* profile section starts */
+.profile-container{
+    height: 190px;
+    width:280px;
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: -60px;
+    margin-left: 200px;
+    background: #181719;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+
+}
+.profile,.profile-details{
+    height:50%;
+    padding:10px;
+}
+h4{
+    width:100%;
+    display: flex;
+    margin-left: 30px;
+
+}
+
+.profile-pic{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+}
+footer{
+    
+    color: #A9A9A9;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+padding:20px;
+margin-top: 30px;
+}
+
+span{
+    color: #A9A9A9;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+/* for mobile screen */
+@media screen and (max-width:576px) {
+    .body{
+        width: 100%;
+        margin: 10px;
+    }
+    .nav-container{
+        flex-direction: column;
+        
+    }
+    .nav-title{
+        margin-bottom: 20px;
+    }
+    .banner-container{
+        flex-direction: column;
+        margin-bottom: 130px;
+
+    }
+  
+    
+}
+
